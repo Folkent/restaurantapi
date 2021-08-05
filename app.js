@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({
     extended: true
 }));
-app.get("/" function(req, res) {
+app.get("/", function (req, res) {
     res.send("Welcome to customer custom API!");
 
 });
